@@ -16,5 +16,31 @@ body {
   /*
    * CSS image reference example.
    */
-  background-image: url('./images/bg-pattern.png');
+}
+
+.timer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  background-color: #808080;
+  border: 3px solid purple;
+  border-radius: 30%;
+  width: 100px;
+  height: 100px;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.label {
+  font-weight: 600;
 }
